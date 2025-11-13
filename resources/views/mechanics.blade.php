@@ -21,12 +21,10 @@
   <!-- Full-viewport background -->
   <div class="fixed inset-0 bg-[url('{{ asset('images/backgroundPhoto1.png') }}')] bg-cover bg-center bg-no-repeat opacity-25 -z-10"></div>
 
-  {{-- NOTE: We REMOVED the <header> navbar here to avoid a second navbar repaint.
-           The layout already renders <x-navbar>. Duplicating it causes a visible flash/reflow. --}}
-
-  <main class="site">
+  {{-- Main content is now constrained in width so zooming out makes it "small" in the center --}}
+  <main class="site max-w-7xl lg:mx-auto px-3 md:px-6 lg:px-8">
     <div class="bg-blue-50/80 my-4 rounded-md py-3">
-      <div class="flex flex-col justify-center gap-3 text-center mx-8">
+      <div class="flex flex-col justify-center gap-3 text-center mx-4 md:mx-8">
         <h1 class="font-bold text-[clamp(1.25rem,3.5vw,2.75rem)]">How to play?</h1>
 
         <h2 class="text-lg lg:text-2xl font-bold text-start">Wilyonaryo®</h2>
@@ -218,7 +216,7 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="max-w-screen-2xl mx-auto px-4 md:px-6 mt-6 md:mt-10">
+  <footer class="max-w-7xl mx-auto px-4 md:px-6 mt-6 md:mt-10">
     <div class="text-white bg-blue-400/65 rounded-lg p-3 sm:p-4 md:p-6 border-2 border-blue-600">
       <div class="grid grid-cols-2 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
         <!-- Left -->

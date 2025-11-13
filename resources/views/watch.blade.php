@@ -3,7 +3,7 @@
 @section('title','Watch')
 
 @section('content')
-  <section class="site flex-1">
+  <section class="max-w-7xl mx-auto site flex-1">
     <div class="relative overflow-hidden bg-blue-50/80 my-4 rounded-md py-6 w-full lg:w-[90%] mx-auto p-3 lg:p-5">
       <h1 class="font-bold text-xl my-2 lg:text-3xl lg:my-4 text-center">
         Watch Wilyonaryo Now!
@@ -36,7 +36,7 @@
 
     {{-- FOOTER WRAPPER with mt-auto so it stays at the bottom together --}}
     <div class="mt-auto">
-      <footer class="max-w-screen-2xl mx-auto px-4 md:px-6 mt-6 md:mt-10">
+      <footer class="max-w-7xl 2xl:mx-auto px-4 md:px-6 mt-6 md:mt-10">
         <div class="text-white bg-blue-400/65 rounded-lg p-3 sm:p-4 md:p-6 border-2 border-blue-600">
           <div class="grid grid-cols-2 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             <!-- Left -->
