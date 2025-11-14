@@ -29,23 +29,18 @@
 
         <h2 class="text-lg lg:text-2xl font-bold text-start">Wilyonaryo®</h2>
         <p class="text-xs lg:text-lg text-start font-medium">
-          Powerball® costs $2 per play. In Idaho and Montana, Powerball is
-          bundled with Power Play® for a minimum purchase price of $3 per play.
-          Select five numbers between 1 and 69 for the white balls, then select
-          one number between 1 and 26 for the red Powerball. Choose your numbers
-          on a play slip or let the lottery terminal randomly pick your numbers.
-          Drawings are held every Monday, Wednesday, and Saturday at 10:59 pm ET
-          at the Florida Lottery draw studio in Tallahasee.
+          A Wilyonaryo® ticket costs ₱60 for valid for 3 draws a day.
+          Select four (4) letters between A and Z, then select
+          one color from 12 available colors. Choose your numbers
+          on a play slip or let the Lucky Pick® randomly pick your letters and color.
+          Drawings are held every Monday to Saturday at 05:00 pm PST
+          at the Wil Tower studio in Quezon City.
         </p>
 
         <h2 class="text-lg lg:text-2xl font-bold text-start">Lucky Pick®</h2>
         <p class="text-xs lg:text-lg text-start font-medium">
-          Ask for Power Play® with your Powerball purchase! For an additional
-          $1 per play, the Power Play feature can multiply non-jackpot prizes
-          by 2, 3, 4, 5 or 10 times! Note: the Match 5 prize with Power Play is
-          always $2 million. The multiplier number is randomly selected before
-          each drawing. The 10X multiplier is only in play when the advertised
-          jackpot annuity is $150 million or less.
+          Each Lucky Pick® round costs ₱3 per ticket. Players must purchase a combination of four (4) letters between A to Z and a color
+          from 12 available colors. Every 4 minutes, the system reveals a set of letters with colors.
         </p>
       </div>
 
@@ -223,15 +218,15 @@
         <div class="leading-snug">
           <h4 class="font-bold text-base sm:text-lg md:text-2xl">Wilyonaryo™</h4>
           <p class="text-[7px] lg:text-lg mt-1 sm:mt-2">
-            Wilyonaryo seats in the heart of Clark Freeport Zone, formerly Clark Air Base, Philippines
+            Wilyonaryo draws are held at Wil Tower in Quezon City, Philippines.
           </p>
           <h5 class="font-bold text-xs sm:text-sm md:text-xl mt-2 sm:mt-3">Official License & Gaming Responsibility</h5>
           <p class="text-[7px] lg:text-lg mt-1 sm:mt-2">
-            Wilyonaryo seats in the heart of Clark Freeport Zone, formerly Clark Air Base, Philippines
+            Wilyonaryo draws are held at Wil Tower in Quezon City, Philippines.
           </p>
           <img src="{{ asset('images/pagcor-logo.png') }}" alt="" class="h-5 w-auto sm:h-6 md:h-10 mt-2 sm:mt-2 md:ml-2" />
           <p class="text-[7px] sm:text-[11px] md:text-[16px] mt-2 sm:mt-2">
-            Gambling doesn't guarantee earnings or financial improvement. Stay within your limits. Need Help? Contact PAGCOR at (02) 8527-9831 or visit www.pagcor.ph/regulatory/responsible-gaming.php
+            Joining promos and raffles is for entertainment and does not guarantee winnings or financial gain. Always participate within your means. Need help? Contact PAGCOR at (02) 8527-9831 or visit www.pagcor.ph/regulatory/responsible-gaming.php 
           </p>
         </div>
 
@@ -240,7 +235,7 @@
           <h1 class="font-bold text-xs 2xl:text-xl">Web Map</h1>
           <div class="flex lg:gap-32">
             <div class="flex flex-col">
-              <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Live Game</a>
+              <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Live Draws</a>
               <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Home</a>
               <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Promotion</a>
             </div>
@@ -276,7 +271,7 @@
 
   <div class="flex justify-center items-center my-2 sm:mt-3">
     <p class="text-[10px] md:text-[12px] text-gray-800 text-center bg-orange-50/60 rounded px-2 py-0.5 sm:py-1">
-      ©2024-2025 WILYONARYO PLUS ALL RIGHT RESERVED
+      ©2025-2026 WILYONARYO ALL RIGHT RESERVED
     </p>
   </div>
 @endsection

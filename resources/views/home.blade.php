@@ -83,7 +83,7 @@
   </section>
 
   <!-- ROW 1 -->
-  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10">
+  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10 lg:my-40">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 lg:gap-10">
       <div class="rounded-2xl p-4 md:p-6">
         <h2 class="font-bold text-[clamp(1rem,3vw,2.25rem)]">How It Works</h2>
@@ -104,7 +104,7 @@
   </section>
 
   <!-- ROW 2 -->
-  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10">
+  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10 lg:my-40">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 lg:gap-10">
       <div class="order-last md:order-first rounded-2xl overflow-hidden">
         <div class="aspect-[16/10] lg:aspect-[4/3]">
@@ -124,7 +124,7 @@
   </section>
 
   <!-- ROW 3 -->
-  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10">
+  <section data-aos="fade-right" class="container mx-auto max-w-screen-2xl px-4 md:px-6 mt-10 lg:my-40">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-6 lg:gap-10">
       <div class="rounded-2xl p-4 md:p-6">
         <h2 class="font-bold text-[clamp(1rem,3vw,2.25rem)]">Responsible Gaming</h2>
@@ -174,23 +174,22 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="max-w-screen-2xl mx-auto px-4 md:px-6 mt-6 md:mt-10">
+  <footer class="max-w-7xl mx-auto px-4 md:px-6 mt-6 md:mt-10">
     <div class="text-white bg-blue-400/65 rounded-lg p-3 sm:p-4 md:p-6 border-2 border-blue-600">
       <div class="grid grid-cols-2 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
         <!-- Left -->
         <div class="leading-snug">
           <h4 class="font-bold text-base sm:text-lg md:text-2xl">Wilyonaryo™</h4>
           <p class="text-[7px] lg:text-lg mt-1 sm:mt-2">
-            Wilyonaryo seats in the heart of Clark Freeport Zone, formerly Clark Air Base, Philippines
+            Wilyonaryo draws are held at Wil Tower in Quezon City, Philippines.
           </p>
           <h5 class="font-bold text-xs sm:text-sm md:text-xl mt-2 sm:mt-3">Official License & Gaming Responsibility</h5>
           <p class="text-[7px] lg:text-lg mt-1 sm:mt-2">
-            Wilyonaryo seats in the heart of Clark Freeport Zone, formerly Clark Air Base, Philippines
+            Wilyonaryo draws are held at Wil Tower in Quezon City, Philippines.
           </p>
           <img src="{{ asset('images/pagcor-logo.png') }}" alt="" class="h-5 w-auto sm:h-6 md:h-10 mt-2 sm:mt-2 md:ml-2" />
           <p class="text-[7px] sm:text-[11px] md:text-[16px] mt-2 sm:mt-2">
-            Gambling doesn't guarantee earnings or financial improvement. Stay within your limits. Need Help?
-            Contact PAGCOR at (02) 8527-9831 or visit www.pagcor.ph/regulatory/responsible-gaming.php
+            Joining promos and raffles is for entertainment and does not guarantee winnings or financial gain. Always participate within your means. Need help? Contact PAGCOR at (02) 8527-9831 or visit www.pagcor.ph/regulatory/responsible-gaming.php 
           </p>
         </div>
 
@@ -199,7 +198,7 @@
           <h1 class="font-bold text-xs 2xl:text-xl">Web Map</h1>
           <div class="flex lg:gap-32">
             <div class="flex flex-col">
-              <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Live Game</a>
+              <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Live Draws</a>
               <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Home</a>
               <a href="#" class="text-[8px] mt-2 2xl:text-[16px] hover:underline">Promotion</a>
             </div>
@@ -231,7 +230,6 @@
           </div>
         </div>
       </div>
-    </div>
   </footer>
 
   <div class="flex justify-center items-center my-2 sm:mt-3">
