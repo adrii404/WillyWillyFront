@@ -35,12 +35,12 @@
   <div class="max-w-screen-2xl mx-auto px-2 md:px-4">
     <nav
       class="flex flex-nowrap items-center justify-between gap-1
-             py-1 md:py-0 lg:h-20 md:overflow-visible">
+             py-1 md:py-0 h-16 lg:h-20 md:overflow-visible">
 
       {{-- Logo (left) --}}
       <a href="{{ \Illuminate\Support\Facades\Route::has('home') ? route('home') : url('/') }}"
          class="shrink-0">
-        <img src="{{ asset($logo) }}" alt="Logo" class="h-5 w-auto md:h-14 2xl:h-20" />
+        <img src="{{ asset($logo) }}" alt="Logo" class="h-10 w-auto md:h-14 2xl:h-20" />
       </a>
 
       {{-- Links (center) --}}
